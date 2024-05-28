@@ -1,10 +1,9 @@
-import React from 'react'
-import Paris1 from '../images/paris.jpg'
+import parisImage from '../images/paris.jpg'
 
 const Paris = () => {
   return (
     <div>
-      <img src={Paris1} alt='Foto ciudad de Paris'/>
+      <img src={parisImage} alt='Foto ciudad de Paris' style={{height: '100%', width: '100%', objectFit: 'contain'}}/>
     </div>
   )
 }

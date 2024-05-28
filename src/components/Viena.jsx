@@ -1,9 +1,8 @@
-import React from 'react'
-import VienaImage from '../images/viena.jpg'
+import vienaImage from '../images/viena.jpg'
 
 const Viena = () => {
   return (
-    <img src={VienaImage} alt='Imagen de Viena' />
+    <img src={vienaImage} alt='Imagen de Viena' style={{height: '100%', width: '100%', objectFit: 'contain'}}/>
   )
 }
 

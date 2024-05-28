@@ -1,8 +1,8 @@
-import React from 'react'
-import BerlinImage from '../images/berlin.jpg'
+import berlinImage from '../images/berlin.jpg'
+
 const Berlin = () => {
   return (
-    <img src={BerlinImage} alt='Imagen de Berlin' />
+    <img src={berlinImage} alt='Imagen de Berlin' style={{height: '100%', width: '100%', objectFit: 'contain'}}/>
   )
 }
 

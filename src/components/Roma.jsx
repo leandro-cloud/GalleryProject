@@ -1,9 +1,8 @@
-import React from 'react'
-import RomaImage from '../images/roma.jpg'
+import romaImage from '../images/roma.jpg'
 
 const Roma = () => {
   return (
-    <img src={RomaImage} alt='Imagen de Roma' />
+    <img src={romaImage} alt='Imagen de Roma' style={{height: '100%', width: '100%', objectFit: 'contain'}}/>
   )
 }
 
